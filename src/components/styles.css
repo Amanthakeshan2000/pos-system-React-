@@ -214,6 +214,8 @@ body {
 .menu-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    max-height: 100px;
     gap: 20px;
 }
 
@@ -250,6 +252,11 @@ body {
 
 .item-info {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Takes up available space to push button down */
+    justify-content: space-between;
+    width: 100%;
 }
 
 .item-name {
@@ -283,6 +290,7 @@ body {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    margin-top: auto; /* Pushes button to bottom */
 }
 
 .add-to-dish-btn:hover {

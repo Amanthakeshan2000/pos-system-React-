@@ -5,7 +5,7 @@ const Sidebar = () => {
   return (
     <aside className="sidebar">
       <div className="logo-section">
-        <img src="https://via.placeholder.com/150x100" alt="Logo" className="logo-icon" />
+        <img src="food.webp" alt="Logo" className="logo-icon" />
         <h2>CHILI POS</h2>
       </div>
       <ul className="nav-links">

@@ -2,12 +2,18 @@ import React, { useState } from 'react';
 
 const MenuItems = () => {
   const items = [
-    { name: 'Tasty Vegetable Salad Healthy Diet', price: '$17.99', type: 'Veg', imageUrl: 'https://via.placeholder.com/150x100' },
-    { name: 'Original Chess Meat Burger', price: '$23.99', type: 'Non Veg', imageUrl: 'https://via.placeholder.com/150x100', discount: '20% Off' },
-    { name: 'Tacos Salsa With Chickens Grilled', price: '$14.99', type: 'Non Veg', imageUrl: 'https://via.placeholder.com/150x100' },
-    { name: 'Meat Sushi Maki With Tuna', price: '$9.99', type: 'Non Veg', imageUrl: 'https://via.placeholder.com/150x100' },
-    { name: 'Fresh Orange Juice', price: '$12.99', type: 'Veg', imageUrl: 'https://via.placeholder.com/150x100' },
-    { name: 'Original Chess Burger', price: '$10.59', type: 'Veg', imageUrl: 'https://via.placeholder.com/150x100', discount: '15% Off' }
+    { name: 'Tasty Vegetable Salad Healthy', price: '$17.99', type: 'Veg', imageUrl: 'food.webp' },
+    { name: 'Original Chess Meat Burger', price: '$23.99', type: 'Non Veg', imageUrl: 'food.webp', discount: '20% Off' },
+    { name: 'Tacos Salsa With Chickens Grilled', price: '$14.99', type: 'Non Veg', imageUrl: 'food.webp' },
+    { name: 'Meat Sushi Maki With Tuna', price: '$9.99', type: 'Non Veg', imageUrl: 'food.webp' },
+    { name: 'Fresh Orange Juice', price: '$12.99', type: 'Veg', imageUrl: 'food.webp' },
+    { name: 'Original Chess Burger', price: '$10.59', type: 'Veg', imageUrl: 'food.webp', discount: '15% Off' },
+    { name: 'Tasty Vegetable Salad Healthy', price: '$17.99', type: 'Veg', imageUrl: 'food.webp' },
+    { name: 'Original Chess Meat Burger', price: '$23.99', type: 'Non Veg', imageUrl: 'food.webp', discount: '20% Off' },
+    { name: 'Tacos Salsa With Chickens Grilled', price: '$14.99', type: 'Non Veg', imageUrl: 'food.webp' },
+    { name: 'Meat Sushi Maki With Tuna', price: '$9.99', type: 'Non Veg', imageUrl: 'food.webp' },
+    { name: 'Fresh Orange Juice', price: '$12.99', type: 'Veg', imageUrl: 'food.webp' },
+    { name: 'Original Chess Burger', price: '$10.59', type: 'Veg', imageUrl: 'food.webp', discount: '15% Off' }
   ];
 
   // State to track added items
