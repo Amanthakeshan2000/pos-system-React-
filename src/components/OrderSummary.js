@@ -4,6 +4,8 @@ const OrderSummary = () => {
   const orderItems = [
     { name: 'Meat Sushi Maki With Tuna, Shrimp And Other', price: '$9.99', quantity: 1, imageUrl: 'food.webp', type: 'Non Veg' },
     { name: 'Tacos Salsa With Chickens Grilled', price: '$14.99', quantity: 1, imageUrl: 'food.webp', type: 'Non Veg' },
+    { name: 'Tacos Salsa With Chickens Grilled', price: '$14.99', quantity: 1, imageUrl: 'food.webp', type: 'Non Veg' },
+    
   ];
 
   return (
