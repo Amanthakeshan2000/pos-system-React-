@@ -6,6 +6,9 @@ const BottomBar = () => {
     { tableId: 'T2', name: 'Bessie Cooper', items: 4, status: 'Process' },
     { tableId: 'T3', name: 'Ralph Edwards', items: 8, status: 'Process' },
     { tableId: 'T4', name: 'Cameron Williamson', items: 5, status: 'Process' },
+    { tableId: 'T5', name: 'Cameron Williamson', items: 5, status: 'Process' },
+    { tableId: 'T6', name: 'Bessie Cooper', items: 4, status: 'Process' },
+    { tableId: 'T7', name: 'Ralph Edwards', items: 8, status: 'Process' },
   ];
 
   return (
