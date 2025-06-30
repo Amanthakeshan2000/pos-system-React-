@@ -6,9 +6,10 @@ function App() {
   return (
     <>
       <div style={{
+        marginTop: "5px",
         width: "100%",
         height: "6px",
-        background: "#145c2c",
+        background: "#28a745",
         position: "fixed",
         top: 0,
         left: 0,
