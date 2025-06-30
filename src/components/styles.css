@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: #e0f4e388;
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
 
 /* Sidebar */
 .sidebar {
-    background-color: #ffffff;
+    background: linear-gradient(90deg, #c6f7d0 0%, #e0f4e3 100%);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -69,12 +69,12 @@ body {
 }
 
 .nav-links li a.active {
-    background-color: #28a745;
+    background: linear-gradient(90deg, #28a745 0%, #61ca79 100%);
     color: #fff;
 }
 
 .nav-links li a:hover {
-    background-color: #28a745;
+    background: linear-gradient(90deg, #28a745 0%, #61ca79 100%);
     color: #fff;
 }
 
@@ -105,7 +105,7 @@ body {
 
 .logout-btn {
     width: 100%;
-    background-color: #28a745;
+    background: linear-gradient(90deg, #28a745 0%, #61ca79 100%);
     color: #fff;
     padding: 12px;
     border: none;
@@ -173,7 +173,7 @@ body {
 }
 
 .category.active {
-    background-color: #e0f4e3;
+    background: linear-gradient(90deg, #e0f4e3 0%, #c6f7d0 100%);
 }
 
 .category i {
@@ -194,7 +194,7 @@ body {
 }
 
 .category:hover {
-    background-color: #e0f4e3;
+    background: linear-gradient(90deg, #e0f4e3 0%, #c6f7d0 100%);
 }
 
 .menu-categories-wrapper::-webkit-scrollbar {
@@ -230,13 +230,14 @@ body {
 
 .menu-item.highlighted {
     border: 2px solid #28a745;
+    background: linear-gradient(90deg, #e0f4e3 0%, #c6f7d0 100%);
 }
 
 .discount-label {
     position: absolute;
     top: -10px;
     left: -10px;
-    background-color: #ff8c00;
+    background-color: #61ca79;
     color: white;
     padding: 5px;
     border-radius: 8px;
@@ -285,7 +286,7 @@ body {
 .add-to-dish-btn {
     width: 100%;
     padding: 10px;
-    background-color: #61ca79;
+    background: linear-gradient(90deg, #28a745 0%, #61ca79 100%);
     color: white;
     border: none;
     border-radius: 8px;
@@ -294,7 +295,7 @@ body {
 }
 
 .add-to-dish-btn:hover {
-    background-color: #218838;
+    background: linear-gradient(90deg, #218838 0%, #61ca79 100%);
 }
 
 /* Quantity Control */
@@ -322,7 +323,7 @@ body {
 
 /* Order Summary */
 .order-summary {
-    background-color: #fff;
+    background: linear-gradient(90deg, #e0f4e3 0%, #c6f7d0 100%);
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -371,7 +372,7 @@ body {
 }
 
 .service-btn.active {
-    background-color: #28a745;
+    background: linear-gradient(90deg, #28a745 0%, #61ca79 100%);
     color: white;
 }
 
@@ -460,7 +461,7 @@ body {
 .place-order-btn {
     width: 100%;
     height: 45px;
-    background-color: #28a745;
+    background: linear-gradient(90deg, #28a745 0%, #61ca79 100%);
     color: white;
     border: none;
     border-radius: 8px;
@@ -471,7 +472,7 @@ body {
 }
 
 .place-order-btn:hover {
-    background-color: #218838;
+    background: linear-gradient(90deg, #218838 0%, #61ca79 100%);
 }
 
 /* Bottom Bar */
@@ -480,7 +481,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
+    background: linear-gradient(180deg, #e0f4e3 0%, #28a745 100%);
     padding: 15px;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -499,7 +500,7 @@ body {
 }
 
 .table-id {
-    background-color: #ffc107;
+    background-color: #61ca79;
     color: #fff;
     width: 35px;
     height: 35px;
@@ -518,9 +519,20 @@ body {
 }
 
 .process-status {
-    background-color: #e3f9ed;
+    background-color: #e0f4e3;
     color: #28a745;
     padding: 5px 10px;
     border-radius: 10px;
     font-size: 12px;
+}
+
+.top-bar-line {
+    margin-top: 5px;
+    width: 100%;
+    height: 6px;
+    background: #145c2c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
